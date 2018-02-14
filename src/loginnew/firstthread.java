@@ -41,7 +41,7 @@ public class firstthread extends Application {
         Thread thread = new Thread(() -> {
             try {
                 // Wait for 5 secs
-     //           Thread.sleep(5000);
+                Thread.sleep(5000);
                 if (alert.isShowing()) {
                     Platform.runLater(() -> alert.close());
                 }
